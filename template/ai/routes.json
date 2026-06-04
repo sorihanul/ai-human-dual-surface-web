@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "question_type": "definition_or_standard",
+      "read_first": ["./canon.md"],
+      "read_next": ["./evidence/"],
+      "do_not_use_as_evidence": ["./page.json", "./routes.json", "./examples.md", "./changelog.md", "./tests.md"],
+      "stop_when": "The relevant canon and supporting evidence are confirmed.",
+      "if_missing": "State that the required evidence was not found."
+    },
+    {
+      "question_type": "specific_case_check",
+      "read_first": ["./canon.md"],
+      "read_next": ["./evidence/"],
+      "do_not_use_as_evidence": ["./page.json", "./routes.json", "./examples.md", "./tests.md"],
+      "stop_when": "The matching case card and comparison rule are confirmed.",
+      "if_missing": "State that the specific case evidence was not found."
+    },
+    {
+      "question_type": "how_to_use",
+      "read_first": ["./examples.md"],
+      "read_next": ["./canon.md"],
+      "do_not_use_as_evidence": ["./page.json", "./routes.json", "./examples.md"],
+      "usage_note": "examples.md may guide usage flow, but it is not factual answer evidence.",
+      "stop_when": "The usage pattern and required rule are confirmed.",
+      "if_missing": "State that usage guidance is incomplete."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Local environment
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.zip
+
+# Build and dependency folders
+dist/
+build/
+node_modules/
+__pycache__/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini

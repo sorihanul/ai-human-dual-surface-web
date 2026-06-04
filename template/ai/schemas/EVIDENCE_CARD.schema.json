@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/EVIDENCE_CARD.schema.json",
+  "title": "Evidence Card",
+  "type": "object",
+  "required": ["id", "title", "subject", "source", "claim_supported", "evidence_summary", "last_checked", "verification_status", "confidence"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "subject": { "type": "string" },
+    "source": { "type": "string" },
+    "source_type": {
+      "type": "string",
+      "enum": ["original", "official", "first_party", "external", "derived", "user_submitted"]
+    },
+    "source_url": { "type": "string" },
+    "claim_supported": { "type": "string" },
+    "evidence_summary": { "type": "string" },
+    "raw_evidence": { "type": "string" },
+    "limits": { "type": "string" },
+    "last_checked": { "type": "string" },
+    "verification_status": {
+      "type": "string",
+      "description": "Source verification state. Separate from judgment confidence.",
+      "enum": ["verified", "unverified", "partial", "disputed", "stale"]
+    },
+    "confidence": {
+      "type": "string",
+      "description": "Judgment confidence when answering with this evidence. Separate from verification status.",
+      "enum": ["high", "medium", "low"]
+    },
+    "do_not_use_beyond": { "type": "string" },
+    "security_class": {
+      "type": "string",
+      "enum": ["trusted", "untrusted", "mixed"]
+    }
+  }
+}

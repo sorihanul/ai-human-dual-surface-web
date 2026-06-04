@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/AI_PAGE_MANIFEST.schema.json",
+  "title": "AI Page Manifest",
+  "type": "object",
+  "required": ["ai_page_id", "standard_version", "human_url", "title", "scope", "last_updated", "last_verified", "surfaces", "answer_policy"],
+  "properties": {
+    "ai_page_id": { "type": "string", "minLength": 1 },
+    "standard_version": { "type": "string" },
+    "human_url": { "type": "string" },
+    "title": { "type": "string" },
+    "scope": { "type": "string" },
+    "audience": { "type": "array", "items": { "type": "string" } },
+    "last_updated": { "type": "string" },
+    "last_verified": { "type": "string" },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "owner": { "type": "string" },
+        "source_rank": { "type": "string" }
+      }
+    },
+    "surfaces": {
+      "type": "object",
+      "required": ["routes", "canon", "evidence", "examples", "trace"],
+      "properties": {
+        "routes": { "type": "string" },
+        "canon": { "type": "string" },
+        "evidence": { "type": "string" },
+        "examples": { "type": "string" },
+        "trace": { "type": "string" },
+        "tests": { "type": "string" },
+        "schemas": { "type": "string" }
+      }
+    },
+    "answer_policy": {
+      "type": "object",
+      "required": ["use_as_evidence", "do_not_use_as_evidence"],
+      "properties": {
+        "use_as_evidence": { "type": "array", "items": { "type": "string" } },
+        "do_not_use_as_evidence": { "type": "array", "items": { "type": "string" } },
+        "missing_evidence_rule": { "type": "string" }
+      }
+    },
+    "conflict_policy": { "type": "object" },
+    "freshness_policy": { "type": "object" },
+    "security_policy": { "type": "object" }
+  }
+}

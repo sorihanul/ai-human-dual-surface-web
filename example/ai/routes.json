@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "question_type": "official_claim",
+      "read_first": ["./canon.md"],
+      "read_next": ["./evidence/sample-claim.md"],
+      "do_not_use_as_evidence": ["./page.json", "./routes.json", "./examples.md", "./changelog.md", "./tests.md"],
+      "stop_when": "The sample claim and its evidence card are confirmed.",
+      "if_missing": "State that the required evidence was not found."
+    }
+  ]
+}
+

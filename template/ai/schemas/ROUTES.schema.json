@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/ROUTES.schema.json",
+  "title": "AI Routes",
+  "type": "object",
+  "required": ["routes"],
+  "properties": {
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["question_type", "read_first", "stop_when"],
+        "properties": {
+          "question_type": { "type": "string" },
+          "read_first": { "type": "array", "items": { "type": "string" } },
+          "read_next": { "type": "array", "items": { "type": "string" } },
+          "do_not_use_as_evidence": { "type": "array", "items": { "type": "string" } },
+          "stop_when": { "type": "string" },
+          "if_missing": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+
