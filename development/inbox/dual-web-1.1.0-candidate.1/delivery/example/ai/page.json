@@ -1,0 +1,28 @@
+{
+  "ai_page_id": "basic-example-service",
+  "standard_version": "1.0",
+  "sample_status": "fictional_example",
+  "human_url": "../page.html",
+  "title": "Basic Example Service",
+  "scope": "A fictional sample page for AI-Human Dual Surface Web.",
+  "audience": ["human", "ai_agent"],
+  "last_updated": "2026-05-21",
+  "last_verified": "2026-05-21",
+  "authority": {
+    "owner": "sample_publisher",
+    "source_rank": "sample"
+  },
+  "surfaces": {
+    "routes": "./routes.json",
+    "canon": "./canon.md",
+    "evidence": "./evidence/",
+    "examples": "./examples.md",
+    "trace": "./changelog.md",
+    "tests": "./tests.md"
+  },
+  "answer_policy": {
+    "use_as_evidence": ["canon", "evidence"],
+    "do_not_use_as_evidence": ["manifest", "routes", "examples", "trace", "tests"],
+    "missing_evidence_rule": "If canon or evidence was not opened, state that the answer is not evidence-backed."
+  }
+}

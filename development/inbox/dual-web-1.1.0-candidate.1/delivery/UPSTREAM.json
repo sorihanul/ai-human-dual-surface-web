@@ -1,0 +1,52 @@
+{
+  "upstream": "sorihanul/ai-human-dual-surface-web",
+  "commit": "068d5b71074b8f92b8e4d0fab286718846237ab3",
+  "scope": "Verbatim example fixture and MIT license; the upstream repository is not modified.",
+  "files": {
+    "example/page.html": {
+      "git_blob_sha": "d88bd11d49333a508d28d4dfc3835ffb368d680f",
+      "sha256": "d7a6f7b3212bda621a63bdfada31c44a256ba28c8e71c2d0e5efb5185b956655",
+      "bytes": 651
+    },
+    "example/ai/page.json": {
+      "git_blob_sha": "95dc6378449090a59b1c68a12369b0d1018b2314",
+      "sha256": "2ff498a4e2950bf5414ac2c20f5fb24e41a54e7fc4501794a1dd6a3d5f85e964",
+      "bytes": 904
+    },
+    "example/ai/routes.json": {
+      "git_blob_sha": "b00cb5ba18bb963faed6e2ae6271f0c5e6b0303d",
+      "sha256": "7e1e6ca2917e3fb25e0fc45f246b403f0737c27546143a0938fc761e4b48506f",
+      "bytes": 424
+    },
+    "example/ai/canon.md": {
+      "git_blob_sha": "72268e118c7d766fd411c02cfd574ac99820d542",
+      "sha256": "fee4d6c8ad399f686ac61f9c48a218ad24129790d2772222f2cb7153bc544f61",
+      "bytes": 524
+    },
+    "example/ai/evidence/sample-claim.md": {
+      "git_blob_sha": "b96f07d00b44beafb139b91d2de9ac1e4062b785",
+      "sha256": "ed73cabb9138bc65bb06570987ec8f53d0354946a93c870ef805649d7cb8284f",
+      "bytes": 732
+    },
+    "example/ai/examples.md": {
+      "git_blob_sha": "e6b8618fb3f957eb71fee01ee20126598b1f630a",
+      "sha256": "f7a6aebe5597676a89d5eb72b92bc6c6feab75fa179d8ec68455320e923c0b2a",
+      "bytes": 245
+    },
+    "example/ai/changelog.md": {
+      "git_blob_sha": "45e764f78bbad626bc2f80f520984bfccf6820a8",
+      "sha256": "0114f00b44bd60dff712fc7a9c84d16ce73f696710d3f76781064e94463f3508",
+      "bytes": 170
+    },
+    "example/ai/tests.md": {
+      "git_blob_sha": "e3bc4cc1fb67cafc84e6982b604709ac24c9b9d7",
+      "sha256": "8c4c1a082331cc20e6a0a549b071b69e46808b7445569943e564618fcece445a",
+      "bytes": 491
+    },
+    "LICENSE": {
+      "git_blob_sha": "8470012653270e78a9498bedefbc5b7274fd3ee2",
+      "sha256": "3b03d0141f1f07358e15a64d336d9d16f7545342669991c4024fdadbefde5ac8",
+      "bytes": 1069
+    }
+  }
+}

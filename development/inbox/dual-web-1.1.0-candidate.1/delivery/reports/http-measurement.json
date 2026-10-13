@@ -1,0 +1,103 @@
+{
+  "measurement": "real localhost HTTP, identity coding, fictional upstream fixture",
+  "equivalent_core_source_bytes": 2584,
+  "cold_individual": {
+    "http_requests": 4,
+    "response_body_bytes": 2584,
+    "responses": [
+      {
+        "path": "/ai/page.json",
+        "status": 200,
+        "body_bytes": 904,
+        "etag": "\"sha256-2ff498a4e2950bf5414ac2c20f5fb24e41a54e7fc4501794a1dd6a3d5f85e964\""
+      },
+      {
+        "path": "/ai/routes.json",
+        "status": 200,
+        "body_bytes": 424,
+        "etag": "\"sha256-7e1e6ca2917e3fb25e0fc45f246b403f0737c27546143a0938fc761e4b48506f\""
+      },
+      {
+        "path": "/ai/canon.md",
+        "status": 200,
+        "body_bytes": 524,
+        "etag": "\"sha256-fee4d6c8ad399f686ac61f9c48a218ad24129790d2772222f2cb7153bc544f61\""
+      },
+      {
+        "path": "/ai/evidence/sample-claim.md",
+        "status": 200,
+        "body_bytes": 732,
+        "etag": "\"sha256-ed73cabb9138bc65bb06570987ec8f53d0354946a93c870ef805649d7cb8284f\""
+      }
+    ]
+  },
+  "cold_index_and_bundle": {
+    "http_requests": 2,
+    "response_body_bytes": 5133,
+    "responses": [
+      {
+        "path": "/ai/index.json",
+        "status": 200,
+        "body_bytes": 716,
+        "etag": "\"sha256-76838d0ddbac6a655d14c7f6d511326ad0801c14625d63bfe6954f1ae51f902c\""
+      },
+      {
+        "path": "/ai/bundles/259a3080af3e229f63ebff7e80c332d514e8a622a29ccf1c3f094fc187499a12.json",
+        "status": 200,
+        "body_bytes": 4417,
+        "etag": "\"sha256-259a3080af3e229f63ebff7e80c332d514e8a622a29ccf1c3f094fc187499a12\""
+      }
+    ]
+  },
+  "revalidated_individual": {
+    "http_requests": 4,
+    "response_body_bytes": 0,
+    "responses": [
+      {
+        "path": "/ai/page.json",
+        "status": 304,
+        "body_bytes": 0,
+        "etag": "\"sha256-2ff498a4e2950bf5414ac2c20f5fb24e41a54e7fc4501794a1dd6a3d5f85e964\""
+      },
+      {
+        "path": "/ai/routes.json",
+        "status": 304,
+        "body_bytes": 0,
+        "etag": "\"sha256-7e1e6ca2917e3fb25e0fc45f246b403f0737c27546143a0938fc761e4b48506f\""
+      },
+      {
+        "path": "/ai/canon.md",
+        "status": 304,
+        "body_bytes": 0,
+        "etag": "\"sha256-fee4d6c8ad399f686ac61f9c48a218ad24129790d2772222f2cb7153bc544f61\""
+      },
+      {
+        "path": "/ai/evidence/sample-claim.md",
+        "status": 304,
+        "body_bytes": 0,
+        "etag": "\"sha256-ed73cabb9138bc65bb06570987ec8f53d0354946a93c870ef805649d7cb8284f\""
+      }
+    ]
+  },
+  "revalidated_index": {
+    "http_requests": 1,
+    "response_body_bytes": 0,
+    "responses": [
+      {
+        "path": "/ai/index.json",
+        "status": 304,
+        "body_bytes": 0,
+        "etag": "\"sha256-76838d0ddbac6a655d14c7f6d511326ad0801c14625d63bfe6954f1ae51f902c\""
+      }
+    ]
+  },
+  "html_blocked_ai_open": true,
+  "limits": [
+    "Not a real-agent success/accuracy benchmark.",
+    "No CDN, production bot filtering, concurrency/load, billing, latency or actual Internet measurements.",
+    "HTTP headers, TLS and packet overhead are excluded from byte counts.",
+    "The JSON envelope/index increase cold body bytes on this tiny sample; fewer requests do not imply fewer bytes.",
+    "Both designs could avoid all requests while a suitable local cache is fresh.",
+    "This validates a delivery mechanism, not superiority over all optimized HTML/API designs."
+  ]
+}

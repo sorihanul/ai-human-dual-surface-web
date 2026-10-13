@@ -1,0 +1,324 @@
+{
+  "version": "1.1.0-candidate.1",
+  "executed_at_environment_clock": "2026-10-13T10:07:59.086181+00:00",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "tests_run": 73,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "passed": true,
+  "cases": [
+    {
+      "test": "test_delivery.FixtureTest.test_absolute_path_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_all_source_bytes_and_evidence_roles_preserved",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_change_report_created_updated_deleted",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_cli_bad_input_nonzero",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_compare_different_page_fails",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_conflicting_policy_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_duplicate_json_key_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_duplicate_question_type_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_empty_evidence_directory_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_empty_existing_output_also_refused",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_empty_schema_directory_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_evidence_change_changes_bundle_id_without_resetting_dates",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_existing_output_is_not_overwritten",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_external_surface_reference_rejected_without_fetch",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_external_symlink_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_extra_files_not_published",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_hidden_evidence_file_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_identical_builds_are_byte_identical",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_incomplete_release_refused",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_internal_symlink_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_invalid_base_paths",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_invalid_calendar_date_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_leap_day_is_accepted",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_missing_route_target_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_missing_surface_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_nested_output_refused",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_non_string_base_path_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_non_utf8_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_nonfinite_json_token_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_nul_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_optional_schemas_stay_out_of_core_bundle",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_overlapping_surface_roles_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_oversized_serialized_bundle_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_oversized_source_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_per_request_state_does_not_rebuild_release",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_percent_encoded_escape_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_placeholder_manifest_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_relative_escape_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_release_file_tamper_detected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_root_json_array_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_string_instead_of_read_array_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_support_only_update_changes_index_but_reuses_core_bundle",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_support_role_cannot_be_promoted",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_unchanged_change_report_is_empty",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_undeclared_route_file_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_unexpected_file_under_evidence_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_unknown_core_version_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_unknown_surface_role_rejected",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_unverified_and_adversarial_source_stays_data",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_upstream_fixture_is_exact",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.FixtureTest.test_valid_subdirectory_mount",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_denial_is_not_user_agent_detection",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_denied_resource_never_304",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_directory_and_private_files_not_served",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_encoded_html_does_not_bypass_denial",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_etag_parser_corner_cases",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_freshness_headers_not_evidence_dates",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_head_conditional_returns_304",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_head_has_no_body_but_get_length",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_html_denied_but_index_and_bundle_open",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_if_match_checked_before_if_none_match",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_if_match_same_is_accepted",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_mismatched_tag_sends_body",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_missing_resource_never_304_even_wildcard",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_mutation_methods_denied",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_query_does_not_create_new_representation",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_repeated_index_returns_real_304_and_zero_body",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_root_alias_cannot_bypass_human_denial",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_tag_list_matches",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_traversal_and_encoded_traversal_denied",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_weak_if_match_not_accepted",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_weak_index_tag_matches",
+      "outcome": "passed"
+    },
+    {
+      "test": "test_delivery.HTTPTests.test_wildcard_matches",
+      "outcome": "passed"
+    }
+  ],
+  "source_sha256": {
+    "run.py": "d102b2d70f2b59dc6e10459e7e1a8963c30df50f7bca4c2cfb91baea338d5726",
+    "dualweb/__init__.py": "6e195f22464484db97f9bf330b06533b8ea0c348f2ce6ddb8f502abe7899b40e",
+    "dualweb/server.py": "1705e11b2e670370c1eed12ac630de85e6c212bcaed863c0e4f6107288df72b0",
+    "dualweb/core.py": "8db08d5df46fd1743960075ddb2f7fb8b8f1c8133999fb8a80c10f8e30a8e4f6",
+    "dualweb/cli.py": "9f894b6495ecb0a694821d8617b1e1f7f55a66d4d38de2403989cec6baef5f23",
+    "tests/test_delivery.py": "85eca056a28e694934a87b344b29ea8e8ad499b8d950b12abfd23168283b0516",
+    "tools/measure.py": "ceeffbcb05e4e8b97bee177fa3eea837b2576dbf5360a1ac106e6d1ab230d47b",
+    "tools/verify.py": "4d207b776001b38e97389d7682c24a1b0d3a861dfabee7542b9cea51e058f89d"
+  },
+  "log": "test_absolute_path_rejected (test_delivery.FixtureTest.test_absolute_path_rejected) ... ok\ntest_all_source_bytes_and_evidence_roles_preserved (test_delivery.FixtureTest.test_all_source_bytes_and_evidence_roles_preserved) ... ok\ntest_change_report_created_updated_deleted (test_delivery.FixtureTest.test_change_report_created_updated_deleted) ... ok\ntest_cli_bad_input_nonzero (test_delivery.FixtureTest.test_cli_bad_input_nonzero) ... ok\ntest_compare_different_page_fails (test_delivery.FixtureTest.test_compare_different_page_fails) ... ok\ntest_conflicting_policy_rejected (test_delivery.FixtureTest.test_conflicting_policy_rejected) ... ok\ntest_duplicate_json_key_rejected (test_delivery.FixtureTest.test_duplicate_json_key_rejected) ... ok\ntest_duplicate_question_type_rejected (test_delivery.FixtureTest.test_duplicate_question_type_rejected) ... ok\ntest_empty_evidence_directory_rejected (test_delivery.FixtureTest.test_empty_evidence_directory_rejected) ... ok\ntest_empty_existing_output_also_refused (test_delivery.FixtureTest.test_empty_existing_output_also_refused) ... ok\ntest_empty_schema_directory_rejected (test_delivery.FixtureTest.test_empty_schema_directory_rejected) ... ok\ntest_evidence_change_changes_bundle_id_without_resetting_dates (test_delivery.FixtureTest.test_evidence_change_changes_bundle_id_without_resetting_dates) ... ok\ntest_existing_output_is_not_overwritten (test_delivery.FixtureTest.test_existing_output_is_not_overwritten) ... ok\ntest_external_surface_reference_rejected_without_fetch (test_delivery.FixtureTest.test_external_surface_reference_rejected_without_fetch) ... ok\ntest_external_symlink_rejected (test_delivery.FixtureTest.test_external_symlink_rejected) ... ok\ntest_extra_files_not_published (test_delivery.FixtureTest.test_extra_files_not_published) ... ok\ntest_hidden_evidence_file_rejected (test_delivery.FixtureTest.test_hidden_evidence_file_rejected) ... ok\ntest_identical_builds_are_byte_identical (test_delivery.FixtureTest.test_identical_builds_are_byte_identical) ... ok\ntest_incomplete_release_refused (test_delivery.FixtureTest.test_incomplete_release_refused) ... ok\ntest_internal_symlink_rejected (test_delivery.FixtureTest.test_internal_symlink_rejected) ... ok\ntest_invalid_base_paths (test_delivery.FixtureTest.test_invalid_base_paths) ... ok\ntest_invalid_calendar_date_rejected (test_delivery.FixtureTest.test_invalid_calendar_date_rejected) ... ok\ntest_leap_day_is_accepted (test_delivery.FixtureTest.test_leap_day_is_accepted) ... ok\ntest_missing_route_target_rejected (test_delivery.FixtureTest.test_missing_route_target_rejected) ... ok\ntest_missing_surface_rejected (test_delivery.FixtureTest.test_missing_surface_rejected) ... ok\ntest_nested_output_refused (test_delivery.FixtureTest.test_nested_output_refused) ... ok\ntest_non_string_base_path_rejected (test_delivery.FixtureTest.test_non_string_base_path_rejected) ... ok\ntest_non_utf8_rejected (test_delivery.FixtureTest.test_non_utf8_rejected) ... ok\ntest_nonfinite_json_token_rejected (test_delivery.FixtureTest.test_nonfinite_json_token_rejected) ... ok\ntest_nul_rejected (test_delivery.FixtureTest.test_nul_rejected) ... ok\ntest_optional_schemas_stay_out_of_core_bundle (test_delivery.FixtureTest.test_optional_schemas_stay_out_of_core_bundle) ... ok\ntest_overlapping_surface_roles_rejected (test_delivery.FixtureTest.test_overlapping_surface_roles_rejected) ... ok\ntest_oversized_serialized_bundle_rejected (test_delivery.FixtureTest.test_oversized_serialized_bundle_rejected) ... ok\ntest_oversized_source_rejected (test_delivery.FixtureTest.test_oversized_source_rejected) ... ok\ntest_per_request_state_does_not_rebuild_release (test_delivery.FixtureTest.test_per_request_state_does_not_rebuild_release) ... ok\ntest_percent_encoded_escape_rejected (test_delivery.FixtureTest.test_percent_encoded_escape_rejected) ... ok\ntest_placeholder_manifest_rejected (test_delivery.FixtureTest.test_placeholder_manifest_rejected) ... ok\ntest_relative_escape_rejected (test_delivery.FixtureTest.test_relative_escape_rejected) ... ok\ntest_release_file_tamper_detected (test_delivery.FixtureTest.test_release_file_tamper_detected) ... ok\ntest_root_json_array_rejected (test_delivery.FixtureTest.test_root_json_array_rejected) ... ok\ntest_string_instead_of_read_array_rejected (test_delivery.FixtureTest.test_string_instead_of_read_array_rejected) ... ok\ntest_support_only_update_changes_index_but_reuses_core_bundle (test_delivery.FixtureTest.test_support_only_update_changes_index_but_reuses_core_bundle) ... ok\ntest_support_role_cannot_be_promoted (test_delivery.FixtureTest.test_support_role_cannot_be_promoted) ... ok\ntest_unchanged_change_report_is_empty (test_delivery.FixtureTest.test_unchanged_change_report_is_empty) ... ok\ntest_undeclared_route_file_rejected (test_delivery.FixtureTest.test_undeclared_route_file_rejected) ... ok\ntest_unexpected_file_under_evidence_rejected (test_delivery.FixtureTest.test_unexpected_file_under_evidence_rejected) ... ok\ntest_unknown_core_version_rejected (test_delivery.FixtureTest.test_unknown_core_version_rejected) ... ok\ntest_unknown_surface_role_rejected (test_delivery.FixtureTest.test_unknown_surface_role_rejected) ... ok\ntest_unverified_and_adversarial_source_stays_data (test_delivery.FixtureTest.test_unverified_and_adversarial_source_stays_data) ... ok\ntest_upstream_fixture_is_exact (test_delivery.FixtureTest.test_upstream_fixture_is_exact) ... ok\ntest_valid_subdirectory_mount (test_delivery.FixtureTest.test_valid_subdirectory_mount) ... ok\ntest_denial_is_not_user_agent_detection (test_delivery.HTTPTests.test_denial_is_not_user_agent_detection) ... ok\ntest_denied_resource_never_304 (test_delivery.HTTPTests.test_denied_resource_never_304) ... ok\ntest_directory_and_private_files_not_served (test_delivery.HTTPTests.test_directory_and_private_files_not_served) ... ok\ntest_encoded_html_does_not_bypass_denial (test_delivery.HTTPTests.test_encoded_html_does_not_bypass_denial) ... ok\ntest_etag_parser_corner_cases (test_delivery.HTTPTests.test_etag_parser_corner_cases) ... ok\ntest_freshness_headers_not_evidence_dates (test_delivery.HTTPTests.test_freshness_headers_not_evidence_dates) ... ok\ntest_head_conditional_returns_304 (test_delivery.HTTPTests.test_head_conditional_returns_304) ... ok\ntest_head_has_no_body_but_get_length (test_delivery.HTTPTests.test_head_has_no_body_but_get_length) ... ok\ntest_html_denied_but_index_and_bundle_open (test_delivery.HTTPTests.test_html_denied_but_index_and_bundle_open) ... ok\ntest_if_match_checked_before_if_none_match (test_delivery.HTTPTests.test_if_match_checked_before_if_none_match) ... ok\ntest_if_match_same_is_accepted (test_delivery.HTTPTests.test_if_match_same_is_accepted) ... ok\ntest_mismatched_tag_sends_body (test_delivery.HTTPTests.test_mismatched_tag_sends_body) ... ok\ntest_missing_resource_never_304_even_wildcard (test_delivery.HTTPTests.test_missing_resource_never_304_even_wildcard) ... ok\ntest_mutation_methods_denied (test_delivery.HTTPTests.test_mutation_methods_denied) ... ok\ntest_query_does_not_create_new_representation (test_delivery.HTTPTests.test_query_does_not_create_new_representation) ... ok\ntest_repeated_index_returns_real_304_and_zero_body (test_delivery.HTTPTests.test_repeated_index_returns_real_304_and_zero_body) ... ok\ntest_root_alias_cannot_bypass_human_denial (test_delivery.HTTPTests.test_root_alias_cannot_bypass_human_denial) ... ok\ntest_tag_list_matches (test_delivery.HTTPTests.test_tag_list_matches) ... ok\ntest_traversal_and_encoded_traversal_denied (test_delivery.HTTPTests.test_traversal_and_encoded_traversal_denied) ... ok\ntest_weak_if_match_not_accepted (test_delivery.HTTPTests.test_weak_if_match_not_accepted) ... ok\ntest_weak_index_tag_matches (test_delivery.HTTPTests.test_weak_index_tag_matches) ... ok\ntest_wildcard_matches (test_delivery.HTTPTests.test_wildcard_matches) ... ok\n\n----------------------------------------------------------------------\nRan 73 tests in 1.457s\n\nOK\n",
+  "scope": "same-author local unit/integration and actual loopback HTTP tests; not independent certification",
+  "not_run": [
+    "Original PowerShell validator",
+    "Windows/macOS execution",
+    "Production deployment/CDN/WAF",
+    "Real LLM behavior/accuracy",
+    "Source truth verification"
+  ]
+}
